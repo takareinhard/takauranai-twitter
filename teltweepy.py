@@ -9,7 +9,6 @@ import sys
 import random
 sys.setrecursionlimit(10000)
 
-//Twitter APIキーを設定
 consumer_key = "kiLKotlMC3r3RecPEgqnoa1ML"
 consumer_secret = "nbKRSFO2hATG6sGEXn82nL6SR7Jne0l6w9LWSdQRI82vtrxfeN"
 access_token = "72690686-ppSkeWdfCR7sLmH6nNZyG2xlTpbJeTV4oZwATLt5q"
