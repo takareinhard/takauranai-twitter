@@ -1,5 +1,3 @@
-# -*- coding: utf-8 -*-
-
 import tweepy
 import requests
 from bs4 import BeautifulSoup
@@ -63,6 +61,8 @@ response = openai.ChatCompletion.create(
     ],
 )
 info = response.choices[0]["message"]["content"].strip()
+
+print(info)
 
 # 生成された情報と過去記事のURLをツイート
 tweet = f"過去記事：{article_url}\n電話占い情報：{info}"
