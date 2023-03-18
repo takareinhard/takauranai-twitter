@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 import tweepy
 import requests
 from bs4 import BeautifulSoup
@@ -6,8 +8,6 @@ import re
 import sys
 import random
 sys.setrecursionlimit(10000)
-
-# -*- coding: utf-8 -*-
 
 //Twitter APIキーを設定
 consumer_key = "kiLKotlMC3r3RecPEgqnoa1ML"
