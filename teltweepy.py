@@ -54,7 +54,7 @@ else:
     
 
 # OpenAI APIキーを設定
-openai.api_key = "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"
+openai.api_key = "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"
 
 # 電話占いに関する情報を生成
 response = openai.ChatCompletion.create(
