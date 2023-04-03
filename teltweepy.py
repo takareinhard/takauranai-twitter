@@ -7,10 +7,10 @@ import sys
 import random
 sys.setrecursionlimit(10000)
 
-consumer_key = "kiLKotlMC3r3RecPEgqnoa1ML"
-consumer_secret = "nbKRSFO2hATG6sGEXn82nL6SR7Jne0l6w9LWSdQRI82vtrxfeN"
-access_token = "72690686-ppSkeWdfCR7sLmH6nNZyG2xlTpbJeTV4oZwATLt5q"
-access_token_secret = "0dkFEOTHGtgSISptH415l2pZwhW9ZnGs2N9Q80hgQUEaH"
+consumer_key = ""
+consumer_secret = ""
+access_token = ""
+access_token_secret = ""
 
 # Tweepyを使用してTwitter APIにアクセス
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
@@ -51,7 +51,7 @@ else:
     
 
 # OpenAI APIキーを設定
-openai.api_key = "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"
+openai.api_key = ""
 
 # 電話占いに関する情報を生成
 response = openai.ChatCompletion.create(
